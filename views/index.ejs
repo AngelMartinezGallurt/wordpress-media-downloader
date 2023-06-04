@@ -1,0 +1,12 @@
+<%- include("./layouts/header.ejs") %>
+
+
+  <h1>Descarga medios de Wordpress</h1>
+  <form action="/" method="post">
+    <label for="media">URL de los medios</label>
+    <textarea name="media" id="media" cols="200" rows="10" placeholder="https://ejemplo.com/blog/mi-tercer-post/2023/06/texto.pdf&#10;https://ejemplo.com/blog/mi-primer-post/2018/01/imagen21.jpg"></textarea>
+    <button type="submit">Descargar</button>
+  </form>
+
+
+<%- include("./layouts/footer.ejs") %>

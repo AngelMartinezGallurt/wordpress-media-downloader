@@ -1,0 +1,16 @@
+{
+  "name": "wordpress-media-downloader",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Download Wordpress media using a list of posts or pages and save them in their respective folders",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ángel Martínez Gallurt",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
